@@ -1,0 +1,13 @@
+{
+  "name": "frontend-frameworks-demo",
+  "version": "1.0.0",
+  "description": "Một dự án mẫu cho các framework frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build process here'"
+  },
+  "author": "Tên của bạn",
+  "license": "MIT",
+  "dependencies": {}
+}
