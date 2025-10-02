@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 app.use((err, req, res, next) => {
   console.error(err.stack);
   const isDev = process.env.NODE_ENV === 'development';
+  res.type('text/plain'); // Set content type to text/plain
   res.status(500).send(isDev ? err.message : 'Something went wrong!');
 });
 
