@@ -7,7 +7,7 @@
     "start": "node server.js",
     "build": "echo 'Build process here'"
   },
-  "author": "Tên của bạn",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {}
 }
