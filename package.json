@@ -1,7 +1,7 @@
 {
   "name": "frontend-frameworks-demo",
   "version": "1.0.0",
-  "description": "Một dự án mẫu cho các framework frontend",
+  "description": "A sample project for frontend frameworks",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
