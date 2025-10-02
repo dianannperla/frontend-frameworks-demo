@@ -21,7 +21,7 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   const isDev = process.env.NODE_ENV === 'development';
   res.type('text/plain'); // Set content type to text/plain
-  res.status(500).send(isDev ? err.message : 'Something went wrong!');
+  res.status(500).send(`Error ${res.statusCode}: ${isDev ? err.message : 'Something went wrong!'}`);
 });
 
 app.listen(PORT, () => {
