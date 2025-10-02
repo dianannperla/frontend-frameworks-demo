@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).send('Something went wrong!');
+  const isDev = process.env.NODE_ENV === 'development';
+  res.status(500).send(isDev ? err.message : 'Something went wrong!');
 });
 
 app.listen(PORT, () => {
