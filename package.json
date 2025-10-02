@@ -1,7 +1,7 @@
 {
   "name": "frontend-frameworks-demo",
   "version": "1.0.0",
-  "description": "A sample project for frontend frameworks",
+  "description": "A demo project showcasing multiple frontend frameworks",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
